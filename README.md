@@ -10,9 +10,13 @@ Ingresar en el siguiente [link](https://www.java.com/es/download/manual.jsp)
 
 ### Linux (Ubuntu):
 Colocar los siguientes comandos en la terminal:
-`sudo apt install default-jre`
+```bash
+sudo apt install default-jre
+```
 Y finalmente para verificar que se instaló correctamente, se puede utilizar el comando
-`java -version`
+```bash
+java -version
+```
 
 ## Ejecutar el archivo
 Se abre el simulador y en la esquina izquierda superior se le da a file, luego open y se busca el archivo que se desea.
