@@ -19,7 +19,7 @@ main:
  	lw $a1, lenA 				#Se carga el número de elementos del arreglo
  	jal funcReLU				#Se llama la función 
  	
- 	li $v0, 10					#prepara al simulador para parar
+ 	addi $v0,$0, 10				#prepara al simulador para parar
  	syscall 					#simulador se detiene
  
  funcReLU:
