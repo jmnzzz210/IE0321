@@ -1,0 +1,4 @@
+# Cálculo del promedio de un array
+
+Esta función lo que realiza es el promedio de un array, el cual contiene únicamente números positivos y cuando se coloca un número negativo significa que se ha llegado al final del array. La función recibe el array a través de `$a0` y devuelve la parte entera del promedio a través de `$v0` mientras que a través de `$v1` se recibe el residuo del promedio.
+En este código se presenta varios ejemplos, por ejemplo, un array que genera un promedio normalmente, otro donde se genera overflow, un array donde los valores que contiene es cero, otro donde el array está vacio.
